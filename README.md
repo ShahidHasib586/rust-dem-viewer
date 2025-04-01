@@ -7,7 +7,7 @@ A terminal-based Digital Elevation Model (DEM) viewer that supports grayscale, c
 - Shahid Ahamed Hasib
 - Mohamed Magdy Atta
 
-## Q3: a cool feature to add to the program : CLI User Interaction
+## A cool feature to add to the program : CLI User Interaction
 
 This Rust application visualizes Digital Elevation Model (DEM) data from `.asc` files, using command-line arguments to specify the input file and visualization mode. The `clap` crate manages these arguments, allowing users to select modes like `grayscale`, `color`, `hillshade`, or `color+hillshade` directly from the terminal. The `Args` struct defines the command-line arguments, which are parsed in the `main` function using `Args::parse()`. The application then reads the DEM data and applies the selected visualization mode, enhancing flexibility and ease of use.
 
